@@ -1,0 +1,29 @@
+name: Wedding
+type: theme
+description: 'HTML5, SASS, Responsive grid starter theme.'
+package: Core
+# version: VERSION
+# core: 8.x
+
+libraries:
+  - wedding/global
+
+regions:
+  header: Header
+  help: Help
+  page_top: 'Page top'
+  page_bottom: 'Page bottom'
+  breadcrumb: 'Breadcrumb'
+  highlighted: Highlighted
+  primary_menu: 'Primary menu'
+  secondary_menu: 'Secondary menu'
+  featured: Featured
+  content: Content
+  sidebar_first: 'Sidebar first'
+  sidebar_second: 'Sidebar second'
+  footer: Footer
+
+# Information added by Drupal.org packaging script on 2016-02-01
+version: '8.x-1.0'
+core: '8.x'
+datestamp: 1454362743

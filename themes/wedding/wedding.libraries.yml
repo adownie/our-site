@@ -1,0 +1,33 @@
+global:
+  version: VERSION
+  css:
+    base:
+      bower_components/normalize.css/normalize.css: {}
+      css/base/base.css: {}
+    layout:
+      css/layout/layout.css: {}
+    component:
+      css/components/components.css: {}
+    theme:
+      css/theme/theme.css: {}
+      css/theme/print.css: { media: print }
+  js:
+    js/modernizr.js: {}
+
+tabs:
+  version: VERSION
+  css:
+    component:
+      css/components/tabs.css: {}
+
+messages:
+  version: VERSION
+  css:
+    component:
+      css/components/messages.css: {}
+
+ie8:
+  version: VERSION
+  header: true
+  js:
+    js/selectivizr-min.js: { browsers: { IE: 'lte IE 8', '!IE': false }, minified: true, preprocess: false }
